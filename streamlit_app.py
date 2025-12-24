@@ -26,7 +26,7 @@ st.write("The name on your smoothie will be", name_on_order)
 ingredients_list = st.multiselect(
     "Choose upto 5 ingrediants ",
     my_dataframe ,
-    max_selections = 5
+    max_selections = 5 ,
     default=["Dragon Fruit", "Guava" , "Jackfruit" ,"Elderberries" , "Kiwi"],
 )
 
